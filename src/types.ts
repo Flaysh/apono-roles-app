@@ -19,3 +19,8 @@ export interface Knowledge {
   places: Place[];
   roles: Role[];
 }
+
+export interface Option {
+  value: string;
+  label: string;
+}
